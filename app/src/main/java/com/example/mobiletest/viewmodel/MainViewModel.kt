@@ -15,7 +15,7 @@ import kotlinx.coroutines.withContext
 /**
  * @author SuK
  * @time 2025/11/6 21:37
- * @desc
+ * @desc main模块的ViewModel
  */
 class MainViewModel(application: Application) : AndroidViewModel(application) {
 

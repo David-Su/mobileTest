@@ -6,7 +6,7 @@ import kotlinx.coroutines.delay
 /**
  * @author SuK
  * @time 2025/11/6 15:57
- * @desc
+ * @desc 模拟获取Booking的网路请求的Service层
  */
 class BookingService {
 
@@ -15,7 +15,7 @@ class BookingService {
      */
     suspend fun getBooking(): Booking? {
         //模拟网络请求等待
-        delay(1000)
+        delay(500)
         return getMockData()
     }
 

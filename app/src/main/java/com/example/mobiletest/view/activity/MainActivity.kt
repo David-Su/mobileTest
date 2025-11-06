@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
             }
             bookingSegmentsAdapter.setData(booking.segments)
         }
-        //监听错误状态
+        //监听错误状态，错误处理
         mainViewModel.onError.observe(this) {
             Toast.makeText(this,"加载错误，请刷新重试", Toast.LENGTH_LONG).show()
         }

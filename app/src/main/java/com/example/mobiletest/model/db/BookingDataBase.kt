@@ -10,7 +10,7 @@ import com.example.mobiletest.model.entity.Booking
 /**
  * @author SuK
  * @time 2025/11/6 11:44
- * @desc
+ * @desc 作为缓存Booking数据的数据库实例
  */
 @Database(
     version = 1,
